@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 87px;
+    margin-bottom: 50px;
+}
+
+.title {
+    color: rgb(28, 42, 57);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 110px;
+}
+
+.itemsTable {
+    display: grid;
+    grid-template-columns: 304px repeat(3, 176px);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    color: rgb(92, 106, 121);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.itemsList {
+    display: grid;
+    grid-template-columns: 304px repeat(3, 176px);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    row-gap: 66px;
+    align-items: center;
+}
+
+.totalPrice {
+    color: rgb(28, 42, 57);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 176px;
+    height: 45px;
+    border: 1px solid rgb(76, 61, 178);
+    background-color: transparent;
+    margin-top: auto;
+    color: rgb(76, 61, 178);
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+.button:hover {
+    cursor: pointer;
+}

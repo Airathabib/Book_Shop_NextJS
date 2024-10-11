@@ -1,0 +1,31 @@
+html,
+body {
+  display: flex;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: rgb(28, 42, 57);
+  background-color: #fff;
+}
+
+#__next {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}

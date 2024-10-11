@@ -1,0 +1,54 @@
+.menu {
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 23px;
+    list-style: none;
+    margin: 0;
+    padding: 45px 0 80px 0;
+    background-color: #EFEEF6;
+    position: absolute;
+    top: 0;
+    left: -200px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #5C6A79;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 160px;
+    transition: all .3s linear;
+}
+
+.menuItem:hover {
+    color: #1C2A39;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all .3s linear;
+}
+
+.menuButton {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.menuButton:hover {
+    cursor: pointer;
+}
+
+.itemSelected {
+    color: #1C2A39;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.itemSelected::before {
+    content: url("/list_style.png");
+    margin-right: 14px;
+    margin-left: -20px;
+}

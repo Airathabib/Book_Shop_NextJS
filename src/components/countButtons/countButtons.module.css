@@ -1,0 +1,41 @@
+.countContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 176px;
+    height: 45px;
+    border: 1px solid rgb(238, 237, 245);
+}
+
+.countButton {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.countButton:hover {
+    cursor: pointer;
+    background-color: rgb(162, 167, 172);
+}
+
+.countText {
+    display: flex;
+    color: rgb(92, 106, 121);
+    min-width: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+}

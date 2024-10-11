@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 105px auto 0;
+    width: 1120px;
+    align-items: flex-end;
+    position: relative;
+}

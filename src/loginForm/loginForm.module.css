@@ -1,0 +1,80 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 31px;
+    left: -120px;
+    box-sizing: border-box;
+    padding: 17px 26px 36px;
+    gap: 15px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    align-self: center;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.label {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+.input {
+    width: 176px;
+    height: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(76, 61, 178);
+    color: rgb(76, 61, 178);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: lowercase;
+    outline: none;
+}
+
+.inputInvalid {
+    border: 1px solid rgb(255, 53, 58);
+}
+
+.error {
+    color: rgb(255, 53, 58);
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.button {
+    width: 176px;
+    height: 32px;
+    background-color: rgb(158, 152, 220);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(158, 152, 220);
+}

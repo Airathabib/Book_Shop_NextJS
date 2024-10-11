@@ -1,0 +1,118 @@
+.page {
+    width: 100%;
+    height: 100vh;
+    color: #1C2A39;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    min-height: 116px;
+    display: flex;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.headerContainer {
+    display: flex;
+    width: 1120px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.headerNavigation {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+.headerLink {
+    color: #5C6A79;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.linkSelected {
+    color: #1C2A39;
+    font-weight: 900;
+}
+
+.userPanel {
+    display: flex;
+    width: 120px;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.headerButton {
+    border: none;
+    background: none;
+}
+
+.headerButton:hover {
+    cursor: pointer;
+}
+
+.userProfile {
+    background: url("../public/user_icon.png");
+    width: 12px;
+    height: 15px;
+}
+.search {
+	background: url("../public/search.svg");
+	width: 15px;
+	height: 15px;
+}
+
+.cart {
+    background: url("../public/cart_icon.png");
+    width: 14px;
+    height: 17px;
+}
+
+.headerItemsCount {
+    display: flex;
+    position: absolute;
+    top: 9px;
+    right: -5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #FF353A;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.global {
+	display: flex;
+	justify-content: center;
+	margin-top: 12.5rem;
+}
