@@ -42,7 +42,7 @@ export default function Home({ initialBooks }: IndexProps) {
 
 
 export async function getStaticProps() {
-  const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q="subject:Architecture"&key=AIzaSyAw8dYZxnbBh_ADDcduDpF3PWGRAcIqC14&printType=books&startIndex=0&maxResults=6&langRestrict=en`)
+  const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q="subject:Architecture"&key=AIzaSyCIXE_nRhEppkCCfuAUS3CNKv7cLaGMOC0&printType=books&startIndex=0&maxResults=6&langRestrict=en`)
   const data = await res.json();
   const books = data.items.map((book:any) => ({
     id: book.id ? book.id : Math.random(),
